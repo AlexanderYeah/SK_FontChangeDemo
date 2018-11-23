@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1170995121A790D200A33A6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1170995021A790D200A33A6E /* AppDelegate.m */; };
+		1170995421A790D200A33A6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1170995321A790D200A33A6E /* ViewController.m */; };
+		1170995721A790D200A33A6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1170995521A790D200A33A6E /* Main.storyboard */; };
+		1170995921A790D400A33A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1170995821A790D400A33A6E /* Assets.xcassets */; };
+		1170995C21A790D400A33A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1170995A21A790D400A33A6E /* LaunchScreen.storyboard */; };
+		1170995F21A790D400A33A6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1170995E21A790D400A33A6E /* main.m */; };
+		1170996921A790D400A33A6E /* SK_FontAdaptationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1170996821A790D400A33A6E /* SK_FontAdaptationDemoTests.m */; };
+		1170997421A790D400A33A6E /* SK_FontAdaptationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1170997321A790D400A33A6E /* SK_FontAdaptationDemoUITests.m */; };
+		1170998421A794EC00A33A6E /* UIFont+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1170998321A794EC00A33A6E /* UIFont+runtime.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1170996521A790D400A33A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1170994421A790D200A33A6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1170994B21A790D200A33A6E;
+			remoteInfo = SK_FontAdaptationDemo;
+		};
+		1170997021A790D400A33A6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1170994421A790D200A33A6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1170994B21A790D200A33A6E;
+			remoteInfo = SK_FontAdaptationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1170994C21A790D200A33A6E /* SK_FontAdaptationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SK_FontAdaptationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1170994F21A790D200A33A6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1170995021A790D200A33A6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1170995221A790D200A33A6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1170995321A790D200A33A6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1170995621A790D200A33A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1170995821A790D400A33A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1170995B21A790D400A33A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1170995D21A790D400A33A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1170995E21A790D400A33A6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1170996421A790D400A33A6E /* SK_FontAdaptationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SK_FontAdaptationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1170996821A790D400A33A6E /* SK_FontAdaptationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SK_FontAdaptationDemoTests.m; sourceTree = "<group>"; };
+		1170996A21A790D400A33A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1170996F21A790D400A33A6E /* SK_FontAdaptationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SK_FontAdaptationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1170997321A790D400A33A6E /* SK_FontAdaptationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SK_FontAdaptationDemoUITests.m; sourceTree = "<group>"; };
+		1170997521A790D400A33A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1170998221A794EC00A33A6E /* UIFont+runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+runtime.h"; sourceTree = "<group>"; };
+		1170998321A794EC00A33A6E /* UIFont+runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+runtime.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1170994921A790D200A33A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1170996121A790D400A33A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1170996C21A790D400A33A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1170994321A790D200A33A6E = {
+			isa = PBXGroup;
+			children = (
+				1170994E21A790D200A33A6E /* SK_FontAdaptationDemo */,
+				1170996721A790D400A33A6E /* SK_FontAdaptationDemoTests */,
+				1170997221A790D400A33A6E /* SK_FontAdaptationDemoUITests */,
+				1170994D21A790D200A33A6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1170994D21A790D200A33A6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1170994C21A790D200A33A6E /* SK_FontAdaptationDemo.app */,
+				1170996421A790D400A33A6E /* SK_FontAdaptationDemoTests.xctest */,
+				1170996F21A790D400A33A6E /* SK_FontAdaptationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1170994E21A790D200A33A6E /* SK_FontAdaptationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1170994F21A790D200A33A6E /* AppDelegate.h */,
+				1170995021A790D200A33A6E /* AppDelegate.m */,
+				1170995221A790D200A33A6E /* ViewController.h */,
+				1170995321A790D200A33A6E /* ViewController.m */,
+				1170998221A794EC00A33A6E /* UIFont+runtime.h */,
+				1170998321A794EC00A33A6E /* UIFont+runtime.m */,
+				1170995521A790D200A33A6E /* Main.storyboard */,
+				1170995821A790D400A33A6E /* Assets.xcassets */,
+				1170995A21A790D400A33A6E /* LaunchScreen.storyboard */,
+				1170995D21A790D400A33A6E /* Info.plist */,
+				1170995E21A790D400A33A6E /* main.m */,
+			);
+			path = SK_FontAdaptationDemo;
+			sourceTree = "<group>";
+		};
+		1170996721A790D400A33A6E /* SK_FontAdaptationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1170996821A790D400A33A6E /* SK_FontAdaptationDemoTests.m */,
+				1170996A21A790D400A33A6E /* Info.plist */,
+			);
+			path = SK_FontAdaptationDemoTests;
+			sourceTree = "<group>";
+		};
+		1170997221A790D400A33A6E /* SK_FontAdaptationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1170997321A790D400A33A6E /* SK_FontAdaptationDemoUITests.m */,
+				1170997521A790D400A33A6E /* Info.plist */,
+			);
+			path = SK_FontAdaptationDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1170994B21A790D200A33A6E /* SK_FontAdaptationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1170997821A790D400A33A6E /* Build configuration list for PBXNativeTarget "SK_FontAdaptationDemo" */;
+			buildPhases = (
+				1170994821A790D200A33A6E /* Sources */,
+				1170994921A790D200A33A6E /* Frameworks */,
+				1170994A21A790D200A33A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SK_FontAdaptationDemo;
+			productName = SK_FontAdaptationDemo;
+			productReference = 1170994C21A790D200A33A6E /* SK_FontAdaptationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1170996321A790D400A33A6E /* SK_FontAdaptationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1170997B21A790D400A33A6E /* Build configuration list for PBXNativeTarget "SK_FontAdaptationDemoTests" */;
+			buildPhases = (
+				1170996021A790D400A33A6E /* Sources */,
+				1170996121A790D400A33A6E /* Frameworks */,
+				1170996221A790D400A33A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1170996621A790D400A33A6E /* PBXTargetDependency */,
+			);
+			name = SK_FontAdaptationDemoTests;
+			productName = SK_FontAdaptationDemoTests;
+			productReference = 1170996421A790D400A33A6E /* SK_FontAdaptationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1170996E21A790D400A33A6E /* SK_FontAdaptationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1170997E21A790D400A33A6E /* Build configuration list for PBXNativeTarget "SK_FontAdaptationDemoUITests" */;
+			buildPhases = (
+				1170996B21A790D400A33A6E /* Sources */,
+				1170996C21A790D400A33A6E /* Frameworks */,
+				1170996D21A790D400A33A6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1170997121A790D400A33A6E /* PBXTargetDependency */,
+			);
+			name = SK_FontAdaptationDemoUITests;
+			productName = SK_FontAdaptationDemoUITests;
+			productReference = 1170996F21A790D400A33A6E /* SK_FontAdaptationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1170994421A790D200A33A6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AlexanderYeah;
+				TargetAttributes = {
+					1170994B21A790D200A33A6E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1170996321A790D400A33A6E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1170994B21A790D200A33A6E;
+					};
+					1170996E21A790D400A33A6E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1170994B21A790D200A33A6E;
+					};
+				};
+			};
+			buildConfigurationList = 1170994721A790D200A33A6E /* Build configuration list for PBXProject "SK_FontAdaptationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1170994321A790D200A33A6E;
+			productRefGroup = 1170994D21A790D200A33A6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1170994B21A790D200A33A6E /* SK_FontAdaptationDemo */,
+				1170996321A790D400A33A6E /* SK_FontAdaptationDemoTests */,
+				1170996E21A790D400A33A6E /* SK_FontAdaptationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1170994A21A790D200A33A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1170995C21A790D400A33A6E /* LaunchScreen.storyboard in Resources */,
+				1170995921A790D400A33A6E /* Assets.xcassets in Resources */,
+				1170995721A790D200A33A6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1170996221A790D400A33A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1170996D21A790D400A33A6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1170994821A790D200A33A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1170995421A790D200A33A6E /* ViewController.m in Sources */,
+				1170995F21A790D400A33A6E /* main.m in Sources */,
+				1170995121A790D200A33A6E /* AppDelegate.m in Sources */,
+				1170998421A794EC00A33A6E /* UIFont+runtime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1170996021A790D400A33A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1170996921A790D400A33A6E /* SK_FontAdaptationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1170996B21A790D400A33A6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1170997421A790D400A33A6E /* SK_FontAdaptationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1170996621A790D400A33A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1170994B21A790D200A33A6E /* SK_FontAdaptationDemo */;
+			targetProxy = 1170996521A790D400A33A6E /* PBXContainerItemProxy */;
+		};
+		1170997121A790D400A33A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1170994B21A790D200A33A6E /* SK_FontAdaptationDemo */;
+			targetProxy = 1170997021A790D400A33A6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1170995521A790D200A33A6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1170995621A790D200A33A6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1170995A21A790D400A33A6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1170995B21A790D400A33A6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1170997621A790D400A33A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1170997721A790D400A33A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1170997921A790D400A33A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = SK_FontAdaptationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-FontAdaptationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1170997A21A790D400A33A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = SK_FontAdaptationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-FontAdaptationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1170997C21A790D400A33A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_FontAdaptationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-FontAdaptationDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SK_FontAdaptationDemo.app/SK_FontAdaptationDemo";
+			};
+			name = Debug;
+		};
+		1170997D21A790D400A33A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_FontAdaptationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-FontAdaptationDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SK_FontAdaptationDemo.app/SK_FontAdaptationDemo";
+			};
+			name = Release;
+		};
+		1170997F21A790D400A33A6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_FontAdaptationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-FontAdaptationDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SK_FontAdaptationDemo;
+			};
+			name = Debug;
+		};
+		1170998021A790D400A33A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_FontAdaptationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-FontAdaptationDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SK_FontAdaptationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1170994721A790D200A33A6E /* Build configuration list for PBXProject "SK_FontAdaptationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1170997621A790D400A33A6E /* Debug */,
+				1170997721A790D400A33A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1170997821A790D400A33A6E /* Build configuration list for PBXNativeTarget "SK_FontAdaptationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1170997921A790D400A33A6E /* Debug */,
+				1170997A21A790D400A33A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1170997B21A790D400A33A6E /* Build configuration list for PBXNativeTarget "SK_FontAdaptationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1170997C21A790D400A33A6E /* Debug */,
+				1170997D21A790D400A33A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1170997E21A790D400A33A6E /* Build configuration list for PBXNativeTarget "SK_FontAdaptationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1170997F21A790D400A33A6E /* Debug */,
+				1170998021A790D400A33A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1170994421A790D200A33A6E /* Project object */;
+}
